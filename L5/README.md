@@ -30,7 +30,7 @@ Well its a big function, took some time to break and here is short description o
 
 Well we could bypass all by patching or setting appropriate values while debugging and then reach the point where it does something interesting in debugger but i asked myself what am i looking for in this method because this method doesn't seem to return anything.
 
-So i follwed path in graph view where it will satisfy all the conditions and reached here.
+So i followed path in graph view where it will satisfy all the conditions and reached here.
 
 <img src="l5_one.png">
 

@@ -182,7 +182,7 @@ Looking at the functions window we see network library calls like 'socket', 'bin
 
 Running `netstat` in adb shell we get that indeed it listen on port 1337.
 
-Forwaring ports so that we can connect it with netcat from host system directly.
+Forwarding ports so that we can connect it with netcat from host system directly.
 
 <pre>
 $ adb forward tcp:1337 tcp:1337

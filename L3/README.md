@@ -86,7 +86,7 @@ Now we can do two thing:
 * Modify the smali of Requestor class and remove certificate pinning, recompile, sign and install and log the request made.
 * Disassamble <i>hName</i> and <i>hVal</i> methods from native library and get the result.
 
-While solving this challange i used the second method but while solving other challanges i came accross a very useful tool <b>[Frida](https://www.frida.re)</b> so i will show you how to do it easily with Frida. 
+While solving this challange i used the second method but while solving other challanges i came across a very useful tool <b>[Frida](https://www.frida.re)</b> so i will show you how to do it easily with Frida. 
 
 <b>Frida</b> is a multi-platform dynamic instrumentation framework to inject JavaScript into a process, have a  look at it once, it will make your life easier.
 

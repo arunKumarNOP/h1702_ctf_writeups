@@ -51,7 +51,7 @@ We can do it in two ways:
 
 I use first method when the class is big and there are lots of dependencies or there is lots of error in java file which prevents me from compiling.
 
-But in this case its easy so lets use the second method, see the [Java Soln]() for solution.
+But in this case its easy so lets use the second method, see the [Java Soln](l2_soln.java) for solution.
 
 Running we get:
 <pre>
