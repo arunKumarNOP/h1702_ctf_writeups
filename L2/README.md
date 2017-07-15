@@ -7,7 +7,7 @@
 
 After installing and starting the application and clicking the <i>GETTHEHASED</i> button we get this
 
-![L2_Screenshot](l2_view.png)
+<img src="l2_view.png" width="250">
 
 Lets load it in a decompiler, i used [jadx](https://github.com/skylot/jadx).
 

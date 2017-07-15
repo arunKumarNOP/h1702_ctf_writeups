@@ -7,8 +7,7 @@
 
 After installing and starting the application we are greeted with this screen
 
-
-![L1_Screenshot](l1_view.png)
+<img src="l1_view.png" width="250">
 
 Clicking 'LOAD_ASSET' it loads up some random images and the button name tells most of things i.e its loading those images from the assets folder.
 
@@ -34,7 +33,7 @@ I used [apkstudio](https://github.com/vaibhavpandeyvpz/apkstudio) to decompile t
 
 In the asset folder we see one interesting file <b>tHiS_iS_nOt_tHE_SeCrEt_lEveL_1_fiLE</b>
 
-![flag_img](tHiS_iS_nOt_tHE_SeCrEt_lEveL_1_fiLE)
+<img src="tHiS_iS_nOt_tHE_SeCrEt_lEveL_1_fiLE" height="300">
 
 Flag - <b>cApwN{WELL_THAT_WAS_SUPER_EASY}</b>
 

@@ -5,7 +5,7 @@
 >(Note: Levels 1-4 use the same application)</br>
 >[ctfone5-8d51e73cf81c0391575de7b40226f19645777322.apk](./../challanges/ctfone5-8d51e73cf81c0391575de7b40226f19645777322.apk)
 
-![l5_view](l5_view.png)
+<img src="l5_view.png" width="250">
 
 This is a small apk with just two classes 'MainActivity' app's entrypoint and 'CruelIntentions' an IntentService.
 
@@ -32,6 +32,8 @@ Well we could bypass all by patching or setting appropriate values while debuggi
 
 So i follwed path in graph view where it will satisfy all the conditions and reached here.
 
+<img src="l5_one.png">
+
 Doing some math, in python because maths is hard :D we get this
 
 <pre>
@@ -45,7 +47,7 @@ R2  = 0x6D3D5D2F + 0x6D3D5D2F
 
 Entering this into the three fields we get
 
-![l5_flag](l5_flag.png)
+<img src="l5_flag.png" width="250">
 
 Flag - <b>cApwN{sPEaK_FrieNd_aNd_enteR!}</b>
 

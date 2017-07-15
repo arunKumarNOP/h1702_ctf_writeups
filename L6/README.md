@@ -241,7 +241,7 @@ Then there was constants being setup, i dumped the constants using GDB but thats
 
 ![constants_setup](constants_setup.png)
 
-Then there was a big if-else kind of statement in the same function which was not referenced from anywhere(atleast that what IDA thinks, but putting breakpoints using GDB and sometime with Frida, i found that i was called for each of the characters in message)
+Then there was a big if-else kind of statement in the same function which was not referenced from anywhere(atleast that what IDA thinks, but putting breakpoints using GDB and sometime with Frida, i found that it was called for each of the characters in message)
 
 ![nice_one_msg](nice_one_msg.png)
 
@@ -265,7 +265,7 @@ $ nc 127.0.0.1 1337
 Nice one!Nice one!Nice one!Nice one!Nice one!
 </pre>
 
-Well that was pure luck with some crazy idea and it worked, we get 'Nice one!' for number of correct character i suppose.
+Well that was pure luck with some crazy idea and it worked, we get 'Nice one!' for number of correct character.
 
 Now we can brute force the flag character by character.
 
